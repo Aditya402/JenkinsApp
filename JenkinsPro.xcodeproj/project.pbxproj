@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D4D923FE194BD1D15D7B47C /* Pods_JenkinsProTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5208E522AC2B685F040F8481 /* Pods_JenkinsProTests.framework */; };
+		891F954E260C619A00BF400A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891F954D260C619A00BF400A /* AppDelegate.swift */; };
+		891F9550260C619A00BF400A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891F954F260C619A00BF400A /* SceneDelegate.swift */; };
+		891F9552260C619A00BF400A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891F9551260C619A00BF400A /* ViewController.swift */; };
+		891F9555260C619A00BF400A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891F9553260C619A00BF400A /* Main.storyboard */; };
+		891F9558260C619A00BF400A /* JenkinsPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 891F9556260C619A00BF400A /* JenkinsPro.xcdatamodeld */; };
+		891F955A260C619D00BF400A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891F9559260C619D00BF400A /* Assets.xcassets */; };
+		891F955D260C619D00BF400A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891F955B260C619D00BF400A /* LaunchScreen.storyboard */; };
+		891F9568260C619D00BF400A /* JenkinsProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891F9567260C619D00BF400A /* JenkinsProTests.swift */; };
+		891F9573260C619D00BF400A /* JenkinsProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891F9572260C619D00BF400A /* JenkinsProUITests.swift */; };
+		8C5B9E8D6068E14E43E72DC9 /* Pods_JenkinsPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B95B4E1D87AB71C865248B7 /* Pods_JenkinsPro.framework */; };
+		F4ECFD392680DD655D5E45AD /* Pods_JenkinsPro_JenkinsProUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268BD51340CF5FF8E22B0692 /* Pods_JenkinsPro_JenkinsProUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		891F9564260C619D00BF400A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 891F9542260C619A00BF400A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891F9549260C619A00BF400A;
+			remoteInfo = JenkinsPro;
+		};
+		891F956F260C619D00BF400A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 891F9542260C619A00BF400A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891F9549260C619A00BF400A;
+			remoteInfo = JenkinsPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B95B4E1D87AB71C865248B7 /* Pods_JenkinsPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JenkinsPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		268BD51340CF5FF8E22B0692 /* Pods_JenkinsPro_JenkinsProUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JenkinsPro_JenkinsProUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35895F429E85BC9E3426FEDC /* Pods-JenkinsPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsPro.debug.xcconfig"; path = "Target Support Files/Pods-JenkinsPro/Pods-JenkinsPro.debug.xcconfig"; sourceTree = "<group>"; };
+		42BBF12A5ECDF71D70D00601 /* Pods-JenkinsPro-JenkinsProUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsPro-JenkinsProUITests.release.xcconfig"; path = "Target Support Files/Pods-JenkinsPro-JenkinsProUITests/Pods-JenkinsPro-JenkinsProUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5208E522AC2B685F040F8481 /* Pods_JenkinsProTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JenkinsProTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC0B4C2A61A89E0BD7FEC3D /* Pods-JenkinsProTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsProTests.debug.xcconfig"; path = "Target Support Files/Pods-JenkinsProTests/Pods-JenkinsProTests.debug.xcconfig"; sourceTree = "<group>"; };
+		891F954A260C619A00BF400A /* JenkinsPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		891F954D260C619A00BF400A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		891F954F260C619A00BF400A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		891F9551260C619A00BF400A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		891F9554260C619A00BF400A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		891F9557260C619A00BF400A /* JenkinsPro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JenkinsPro.xcdatamodel; sourceTree = "<group>"; };
+		891F9559260C619D00BF400A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		891F955C260C619D00BF400A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		891F955E260C619D00BF400A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891F9563260C619D00BF400A /* JenkinsProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		891F9567260C619D00BF400A /* JenkinsProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsProTests.swift; sourceTree = "<group>"; };
+		891F9569260C619D00BF400A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891F956E260C619D00BF400A /* JenkinsProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		891F9572260C619D00BF400A /* JenkinsProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsProUITests.swift; sourceTree = "<group>"; };
+		891F9574260C619D00BF400A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C529F7E4DD82917448BC267F /* Pods-JenkinsPro-JenkinsProUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsPro-JenkinsProUITests.debug.xcconfig"; path = "Target Support Files/Pods-JenkinsPro-JenkinsProUITests/Pods-JenkinsPro-JenkinsProUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E22C7EAE74B16F2341D7E5D2 /* Pods-JenkinsProTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsProTests.release.xcconfig"; path = "Target Support Files/Pods-JenkinsProTests/Pods-JenkinsProTests.release.xcconfig"; sourceTree = "<group>"; };
+		F227770941B53BFD969BB465 /* Pods-JenkinsPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsPro.release.xcconfig"; path = "Target Support Files/Pods-JenkinsPro/Pods-JenkinsPro.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		891F9547260C619A00BF400A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5B9E8D6068E14E43E72DC9 /* Pods_JenkinsPro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891F9560260C619D00BF400A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4D923FE194BD1D15D7B47C /* Pods_JenkinsProTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891F956B260C619D00BF400A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ECFD392680DD655D5E45AD /* Pods_JenkinsPro_JenkinsProUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		891F9541260C619A00BF400A = {
+			isa = PBXGroup;
+			children = (
+				891F954C260C619A00BF400A /* JenkinsPro */,
+				891F9566260C619D00BF400A /* JenkinsProTests */,
+				891F9571260C619D00BF400A /* JenkinsProUITests */,
+				891F954B260C619A00BF400A /* Products */,
+				FC1E18C55EB6A93268A4D845 /* Pods */,
+				F43EE4A188A177F1722D19A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		891F954B260C619A00BF400A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				891F954A260C619A00BF400A /* JenkinsPro.app */,
+				891F9563260C619D00BF400A /* JenkinsProTests.xctest */,
+				891F956E260C619D00BF400A /* JenkinsProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		891F954C260C619A00BF400A /* JenkinsPro */ = {
+			isa = PBXGroup;
+			children = (
+				891F954D260C619A00BF400A /* AppDelegate.swift */,
+				891F954F260C619A00BF400A /* SceneDelegate.swift */,
+				891F9551260C619A00BF400A /* ViewController.swift */,
+				891F9553260C619A00BF400A /* Main.storyboard */,
+				891F9559260C619D00BF400A /* Assets.xcassets */,
+				891F955B260C619D00BF400A /* LaunchScreen.storyboard */,
+				891F955E260C619D00BF400A /* Info.plist */,
+				891F9556260C619A00BF400A /* JenkinsPro.xcdatamodeld */,
+			);
+			path = JenkinsPro;
+			sourceTree = "<group>";
+		};
+		891F9566260C619D00BF400A /* JenkinsProTests */ = {
+			isa = PBXGroup;
+			children = (
+				891F9567260C619D00BF400A /* JenkinsProTests.swift */,
+				891F9569260C619D00BF400A /* Info.plist */,
+			);
+			path = JenkinsProTests;
+			sourceTree = "<group>";
+		};
+		891F9571260C619D00BF400A /* JenkinsProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				891F9572260C619D00BF400A /* JenkinsProUITests.swift */,
+				891F9574260C619D00BF400A /* Info.plist */,
+			);
+			path = JenkinsProUITests;
+			sourceTree = "<group>";
+		};
+		F43EE4A188A177F1722D19A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B95B4E1D87AB71C865248B7 /* Pods_JenkinsPro.framework */,
+				268BD51340CF5FF8E22B0692 /* Pods_JenkinsPro_JenkinsProUITests.framework */,
+				5208E522AC2B685F040F8481 /* Pods_JenkinsProTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC1E18C55EB6A93268A4D845 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35895F429E85BC9E3426FEDC /* Pods-JenkinsPro.debug.xcconfig */,
+				F227770941B53BFD969BB465 /* Pods-JenkinsPro.release.xcconfig */,
+				C529F7E4DD82917448BC267F /* Pods-JenkinsPro-JenkinsProUITests.debug.xcconfig */,
+				42BBF12A5ECDF71D70D00601 /* Pods-JenkinsPro-JenkinsProUITests.release.xcconfig */,
+				7BC0B4C2A61A89E0BD7FEC3D /* Pods-JenkinsProTests.debug.xcconfig */,
+				E22C7EAE74B16F2341D7E5D2 /* Pods-JenkinsProTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		891F9549260C619A00BF400A /* JenkinsPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891F9577260C619D00BF400A /* Build configuration list for PBXNativeTarget "JenkinsPro" */;
+			buildPhases = (
+				E8A2D21C0869423638F6D819 /* [CP] Check Pods Manifest.lock */,
+				891F9546260C619A00BF400A /* Sources */,
+				891F9547260C619A00BF400A /* Frameworks */,
+				891F9548260C619A00BF400A /* Resources */,
+				84FFE0564D37883864C3F9BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JenkinsPro;
+			productName = JenkinsPro;
+			productReference = 891F954A260C619A00BF400A /* JenkinsPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		891F9562260C619D00BF400A /* JenkinsProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891F957A260C619D00BF400A /* Build configuration list for PBXNativeTarget "JenkinsProTests" */;
+			buildPhases = (
+				7F73A2237E80A2F8649FF0A9 /* [CP] Check Pods Manifest.lock */,
+				891F955F260C619D00BF400A /* Sources */,
+				891F9560260C619D00BF400A /* Frameworks */,
+				891F9561260C619D00BF400A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891F9565260C619D00BF400A /* PBXTargetDependency */,
+			);
+			name = JenkinsProTests;
+			productName = JenkinsProTests;
+			productReference = 891F9563260C619D00BF400A /* JenkinsProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		891F956D260C619D00BF400A /* JenkinsProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891F957D260C619D00BF400A /* Build configuration list for PBXNativeTarget "JenkinsProUITests" */;
+			buildPhases = (
+				BBA92F6ACBFD1D084E5493E6 /* [CP] Check Pods Manifest.lock */,
+				891F956A260C619D00BF400A /* Sources */,
+				891F956B260C619D00BF400A /* Frameworks */,
+				891F956C260C619D00BF400A /* Resources */,
+				C01DB31DC959C5E696FBCE8C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891F9570260C619D00BF400A /* PBXTargetDependency */,
+			);
+			name = JenkinsProUITests;
+			productName = JenkinsProUITests;
+			productReference = 891F956E260C619D00BF400A /* JenkinsProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		891F9542260C619A00BF400A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					891F9549260C619A00BF400A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					891F9562260C619D00BF400A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 891F9549260C619A00BF400A;
+					};
+					891F956D260C619D00BF400A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 891F9549260C619A00BF400A;
+					};
+				};
+			};
+			buildConfigurationList = 891F9545260C619A00BF400A /* Build configuration list for PBXProject "JenkinsPro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 891F9541260C619A00BF400A;
+			productRefGroup = 891F954B260C619A00BF400A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				891F9549260C619A00BF400A /* JenkinsPro */,
+				891F9562260C619D00BF400A /* JenkinsProTests */,
+				891F956D260C619D00BF400A /* JenkinsProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		891F9548260C619A00BF400A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891F955D260C619D00BF400A /* LaunchScreen.storyboard in Resources */,
+				891F955A260C619D00BF400A /* Assets.xcassets in Resources */,
+				891F9555260C619A00BF400A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891F9561260C619D00BF400A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891F956C260C619D00BF400A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F73A2237E80A2F8649FF0A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JenkinsProTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84FFE0564D37883864C3F9BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JenkinsPro/Pods-JenkinsPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JenkinsPro/Pods-JenkinsPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JenkinsPro/Pods-JenkinsPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBA92F6ACBFD1D084E5493E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JenkinsPro-JenkinsProUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C01DB31DC959C5E696FBCE8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JenkinsPro-JenkinsProUITests/Pods-JenkinsPro-JenkinsProUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JenkinsPro-JenkinsProUITests/Pods-JenkinsPro-JenkinsProUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JenkinsPro-JenkinsProUITests/Pods-JenkinsPro-JenkinsProUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A2D21C0869423638F6D819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JenkinsPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		891F9546260C619A00BF400A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891F9552260C619A00BF400A /* ViewController.swift in Sources */,
+				891F954E260C619A00BF400A /* AppDelegate.swift in Sources */,
+				891F9558260C619A00BF400A /* JenkinsPro.xcdatamodeld in Sources */,
+				891F9550260C619A00BF400A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891F955F260C619D00BF400A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891F9568260C619D00BF400A /* JenkinsProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891F956A260C619D00BF400A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891F9573260C619D00BF400A /* JenkinsProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		891F9565260C619D00BF400A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 891F9549260C619A00BF400A /* JenkinsPro */;
+			targetProxy = 891F9564260C619D00BF400A /* PBXContainerItemProxy */;
+		};
+		891F9570260C619D00BF400A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 891F9549260C619A00BF400A /* JenkinsPro */;
+			targetProxy = 891F956F260C619D00BF400A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		891F9553260C619A00BF400A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891F9554260C619A00BF400A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		891F955B260C619D00BF400A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891F955C260C619D00BF400A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		891F9575260C619D00BF400A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		891F9576260C619D00BF400A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		891F9578260C619D00BF400A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35895F429E85BC9E3426FEDC /* Pods-JenkinsPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mouri.JenkinsPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		891F9579260C619D00BF400A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F227770941B53BFD969BB465 /* Pods-JenkinsPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mouri.JenkinsPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		891F957B260C619D00BF400A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC0B4C2A61A89E0BD7FEC3D /* Pods-JenkinsProTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mouri.JenkinsProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinsPro.app/JenkinsPro";
+			};
+			name = Debug;
+		};
+		891F957C260C619D00BF400A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22C7EAE74B16F2341D7E5D2 /* Pods-JenkinsProTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsProTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mouri.JenkinsProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinsPro.app/JenkinsPro";
+			};
+			name = Release;
+		};
+		891F957E260C619D00BF400A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C529F7E4DD82917448BC267F /* Pods-JenkinsPro-JenkinsProUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mouri.JenkinsProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JenkinsPro;
+			};
+			name = Debug;
+		};
+		891F957F260C619D00BF400A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BBF12A5ECDF71D70D00601 /* Pods-JenkinsPro-JenkinsProUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mouri.JenkinsProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JenkinsPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		891F9545260C619A00BF400A /* Build configuration list for PBXProject "JenkinsPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891F9575260C619D00BF400A /* Debug */,
+				891F9576260C619D00BF400A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891F9577260C619D00BF400A /* Build configuration list for PBXNativeTarget "JenkinsPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891F9578260C619D00BF400A /* Debug */,
+				891F9579260C619D00BF400A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891F957A260C619D00BF400A /* Build configuration list for PBXNativeTarget "JenkinsProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891F957B260C619D00BF400A /* Debug */,
+				891F957C260C619D00BF400A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891F957D260C619D00BF400A /* Build configuration list for PBXNativeTarget "JenkinsProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891F957E260C619D00BF400A /* Debug */,
+				891F957F260C619D00BF400A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		891F9556260C619A00BF400A /* JenkinsPro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				891F9557260C619A00BF400A /* JenkinsPro.xcdatamodel */,
+			);
+			currentVersion = 891F9557260C619A00BF400A /* JenkinsPro.xcdatamodel */;
+			path = JenkinsPro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 891F9542260C619A00BF400A /* Project object */;
+}
